@@ -12,15 +12,18 @@
         <p class="description">
             This app will tell you the minimum number of a type of notes you need to return to the customer. 
         </p>
-        <label for="bill-amount" class="">Bill Amount</label>
-        <input type="text" class="bill-amount">
-        <label for="cash-given" class="">Cash Given</label>
-        <input type="text" class="cash-given">
+    <div class="billamt" >
+        <label for="bill-amount" >Bill Amount</label>
+        <input id="bill-amount" type="text" >
+    </div>
+    <div class="cashgivn">
+        <label for="cash-given" >Cash Given</label>
+        <input id="cash-given" type="text" >
+    </div>
         <button id="check-button">Check</button>
         <p id="error-message"></p>
         <table class="Change-table">
             <caption>Notes To Be Returned</caption>
-        </table>
         <tr>
             <th>No of notes</th>
             <td></td>
@@ -35,6 +38,7 @@
             <td class="no-of-notes">5</td>
             <td class="no-of-notes">1</td>
         </tr>
+    </table>
     </div>
 </body>
 </html>
