@@ -1,17 +1,45 @@
 
 
 .container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 100vw;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(20, 13, 13);   
+}
+
+#check-button {
+    color: white;
+    font-family: cursive;
+    margin: 2rem;
+    background-color: red;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.no-of-notes{
+    padding: 1rem;
+}
+.table-caption{
+    margin-bottom: 1rem;
+    font-family: cursive;
+}
+
+
+.Change-table{
+    padding-bottom: 2rem;
     margin: auto;
 }
 
 .billamt {
-    display: block;
-    
+    margin: 5rem;
 }
 
 .cashgivn {
-    display: block;
+    margin: 5rem;
 }
+ 

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cash Register</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
@@ -13,19 +14,20 @@
             This app will tell you the minimum number of a type of notes you need to return to the customer. 
         </p>
     <div class="billamt" >
-        <label for="bill-amount" >Bill Amount</label>
+        <label for="bill-amount" >Bill Amount:</label>
         <input id="bill-amount" type="text" >
     </div>
     <div class="cashgivn">
-        <label for="cash-given" >Cash Given</label>
+        <label for="cash-given" >Cash Given:</label>
         <input id="cash-given" type="text" >
     </div>
         <button id="check-button">Check</button>
         <p id="error-message"></p>
         <table class="Change-table">
-            <caption>Notes To Be Returned</caption>
+            <caption class="table-caption">Notes To Be Returned</caption>
+           
         <tr>
-            <th class=>No of notes</th>
+            <th>No of notes:-</th>
             <td class="no-of-notes"></td>
             <td class="no-of-notes"></td>
             <td class="no-of-notes"></td>
@@ -35,7 +37,7 @@
             <td class="no-of-notes"></td>
         </tr>
         <tr>
-            <th class="no-of-notes">Type of notes</th>
+            <th>Type of notes:-</th>
             <td class="no-of-notes">2000</td>
             <td class="no-of-notes">500</td>
             <td class="no-of-notes">100</td>
@@ -44,6 +46,7 @@
             <td class="no-of-notes">5</td>
             <td class="no-of-notes">1</td>
         </tr>
+        
     </table>
     </div>
     <script src="./app.js" type="text/javascript"></script>
