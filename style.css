@@ -44,4 +44,8 @@ body{
 .cashgivn {
     margin: 5rem;
 }
+
+table, th, td {
+    border: 1px solid rgb(238, 11, 11);
+  }
  
